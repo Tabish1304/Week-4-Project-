@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+   <div class="top-side">
+    <a href="index.html"><h1 class="logo">Theatre Thrills</h1></a>
+    <div class="search-input-bar">
+      <form id="form" onsubmit="searchMovie(event)">
+      <input class="search-bar" placeholder="Search The Movie" type="text" />
+      </form>
+      </div>
+    
+</div>
+    
+   
+
+      
+    <div class="filter-box">
+      <select name="" id="filter">
+        <option value="Default" disabled selected>Sort</option>
+        <option value="Latest Release Date"> Newest Release Date</option>
+        <option value="Oldest Release Date"> Oldest Release Date</option>
+        <option value="Highest Rating">Highest Rating</option>
+        <option value="Losest Rating">Lowest Rating</option>
+      </select>
+     
+    </div>
+    
+    
+  <main id="diplay">
+    
+  </main>
+
+<script src="./app.js"></script>    
+</body>
+</html>

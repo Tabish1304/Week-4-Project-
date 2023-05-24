@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+    
+}
+
+.search-input-bar{
+    height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+    width: 500px;
+	height: 50px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+form i {
+    font-size: 20px;
+	color: #777;
+    cursor: pointer;
+}
+
+form input{
+
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+
+.filter-box{
+  position: relative;
+  top: 30px;
+  left: 46%;
+  margin-bottom: 40px;
+}
+
+.top-side{
+    background-image: url(https://img.freepik.com/free-vector/cinema-stage-background-with-clapperboard-popcorn-chairs_1017-38722.jpg);
+    width: 100%;
+    height: 600px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+  img{
+    width: 100%;
+  }
+
+  
+
+
+.box{
+    color: black;
+    width: 350px;
+    padding: 50px;
+    transition: 0.5s ease;
+}
+
+.box:hover{
+  transform: scale(1.1);  
+}
+ 
+
+
+.release-date p{
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+
+.release-date {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.movie-rating{
+ text-align: center;  
+ margin-top: 10px; 
+}
+
+
+
+.movie-rating h3{
+    margin-top: 0;
+}
+
+
+.movie-rating span{
+    background-color: var(--Primary-Color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+.movie-rating span.green{
+    color: lightgreen;
+}
+
+
+
+.movie-rating span.orange{
+    color: orange;
+}
+
+.movie-rating span.red{
+    color: red;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
